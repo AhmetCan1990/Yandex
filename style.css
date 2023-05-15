@@ -1,4 +1,4 @@
-/* Yandex Landing Page */
+/* Yandex Page */
 * {
   margin: 0;
   padding: 0;
@@ -7,25 +7,23 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12.8px;
+  color: black;
 }
 .header__list {
   display: flex;
-  justify-content: flex-end;
+  justify-content: right;
   list-style-type: none;
-  margin-top: 1.5rem;
-  padding: 0 1rem;
+  align-items: self-end;
+  margin-right: 25px;
 }
-.header__link {
+.header__item {
   font-size: 0.8rem;
   line-height: 15px;
-  margin: 0 1rem 0;
-  color: black;
-}
-.header__link img {
-  margin-right: 7px;
+  margin: 15px 20px 0;
 }
 a {
   text-decoration: none;
+  color: black;
 }
 .main {
   position: relative;
@@ -44,6 +42,9 @@ a {
   margin-left: 255px;
   width: 980px;
   height: 130px;
+}
+.main__topside--items:hover {
+  cursor: pointer;
 }
 .main__topside--items {
   width: 100px;
@@ -66,7 +67,6 @@ a {
   width: 95px;
 }
 .main__topside--items__textbox a {
-  color: black;
   font-size: 0.9rem;
 }
 .main__bottomside {
@@ -116,9 +116,6 @@ a {
   font-size: 16px;
   font-size: 0.9rem;
 }
-.footer__country div a {
-  color: black;
-}
 .footer__country div p {
   font-weight: 700;
 }
@@ -129,9 +126,9 @@ a {
 }
 .footer__submenu {
   height: 50px;
-  color: #999999;
 }
-.footer__submenu a {
+.footer__submenu a,
+.footer__submenu p {
   color: #999999;
 }
 a:hover {
