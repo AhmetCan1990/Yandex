@@ -112,9 +112,15 @@ a {
   background-color: #f5c401;
 }
 .footer__country div {
-  margin: 130px 25px 0 0;
+  margin: 130px 35px 0 0;
   font-size: 16px;
   font-size: 0.9rem;
+}
+.footer__country div a {
+  color: black;
+}
+.footer__country div p {
+  font-weight: 700;
 }
 .footer__submenu div {
   margin: 90px 25px 0 0;
@@ -123,6 +129,7 @@ a {
 }
 .footer__submenu {
   height: 50px;
+  color: #999999;
 }
 .footer__submenu a {
   color: #999999;
